@@ -13,7 +13,7 @@ app.use(express.json())
 app.use(cors(
     {
 
-        origin:["money-monitor-pearl.vercel.app"],
+        origin:["https://money-monitor-frontend.onrender.com/"],
         methods:["POST", "GET","DELETE"],
         credentials:true
 
